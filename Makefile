@@ -11,6 +11,9 @@ endif
 build:
 	src/build.sh
 
+install:
+uninstall:
+
 
 # ####################################
 # git
@@ -32,4 +35,5 @@ ga:
 # Utils AREA
 # ####################################
 clean:
-	rm -rvf *.bak *.log
+	-rm -rvf *.bak *.log
+	-rm yh-xkit.sh
